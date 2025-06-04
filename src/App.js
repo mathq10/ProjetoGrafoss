@@ -344,7 +344,7 @@ export default function GraphApp() {
 
           <input
             type="text"
-            placeholder="Nome do arquivo (sem extensão)"
+            placeholder="Nome do arquivo"
             value={filename}
             onChange={(e) => setFilename(e.target.value)}
             className="border rounded p-1 mt-4 w-full text-sm"
